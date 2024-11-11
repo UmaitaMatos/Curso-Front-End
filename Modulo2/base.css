@@ -1,0 +1,168 @@
+html, body {
+   
+    height: 600px;
+    width: 800px;
+    
+     
+}
+body {
+   
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100px;
+    display: flex;
+  
+    
+}
+.main {
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column;
+    width: 1024px;
+    height: 1024px;
+    
+}
+.menu {
+   background-color: rgb(255, 255, 255);
+    padding: 50px 0px 0px 40px;
+    width: 300px;
+    height:1364px;
+ }
+
+.btn{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: nome;
+    display: block;
+    text-align: center;
+    padding: 5px 10px 10px 5px;
+    margin-bottom: 10px;
+}
+
+.btn1{
+    background-color: cadetblue;
+    border-radius: 10px;
+    border-bottom: 10px rgb(6, 68, 104);
+}
+
+.btn1{
+    color: black;
+    background-color: cadetblue;
+    border-radius: 5px;
+    border-bottom: 20px rgb(6, 68, 104);
+    transition: trasforme 0.5s;
+}
+
+.btn1:hover{
+    background-color: cadetblue;
+    box-shadow: 0px 1px 15px rgb(22, 119, 122);
+    border-radius: 10px;
+   transform: translate(0px 5px);
+   transition: trasforme 0.5s;
+}
+
+.btn2{
+    color: black;
+    background-color: cadetblue;
+    border-radius:5px;
+    border-bottom: 10px rgb(6, 68, 104);
+    transition: trasforme 0.5s;
+}
+
+.btn2:hover{
+    background-color: cadetblue;
+    box-shadow: 0px 1px 15px rgb(22, 119, 122);
+    border-radius: 10px;
+   transform: translate(0px 5px);
+   transition: trasforme 0.5s;
+}
+
+.btn3{
+    color: black;
+    background-color: cadetblue;
+    border-radius:5px;
+    border-bottom: 10px rgb(6, 68, 104);
+    transition: trasforme 0.5s;
+}
+
+.btn3:hover{
+    background-color: cadetblue;
+    box-shadow: 0px 1px 15px rgb(22, 119, 122);
+    border-radius: 10px;
+   transform: translate(0px 5px);
+   transition: trasforme 0.5s;
+}
+
+.btn4 {
+    color: black;
+    background-color: cadetblue;
+    border-radius:5px;
+    border-bottom:10px;
+    transition: trasforme 0.5s;
+}
+
+.btn4:hover{
+    background-color: cadetblue;
+    box-shadow: 0px 1px 15px rgb(22, 119, 122);
+    border-radius: 10px;
+   transform: translate(0px 5px);
+   transition: trasforme 0.5s;
+}
+.horario{ 
+    border: 4px solid rgb(19, 121, 116);
+    font-size: 21px;
+    color: rgb(6, 68, 104);
+    border-radius: 10px;
+    margin: 40px 0px 0px 0px;
+    padding: 20px;
+    text-align: center;
+    
+   
+      
+}
+.tabela_a{
+    font-size: 25px;
+    text-align: justify;
+    width: 860px;
+    height: 200px ;
+    margin: 2px;
+    padding: 10px;
+    border: 2px solid gray;
+    
+}
+.tabela_a th {
+     background-color: rgb(83, 154, 196)}
+.tabela_a tr:hover{
+     background-color: rgb(147, 210, 247)
+}
+    
+.header {
+    background-color: rgb(247, 243, 10);
+    padding: 0px;
+    margin: 0px;
+    
+}
+.banner {
+    margin: 50px 50px 50px 50px;
+    width: 850px;
+    height: 400px;
+}
+.content {
+    background-color: rgb(168, 12, 12);
+    min-height:900px;
+  margin-top: 50px;
+  margin: 10px 0px 0px 0px;
+  
+}
+.footer {
+    width: 1200px;
+    background-color: rgb(34, 148, 148);
+    min-height: 50px;
+    margin: 30px 5px 500px 0px;
+}

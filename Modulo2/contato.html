@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <audio autoplay controls>
+        <source src="midias/blues-rock-instrumental.mp3"/>
+    Seu Nagador não tem suporte para esse áudio
+    </audio>
+        <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+           <a href="template.html"  class="btn btn1">Página Inicial</a>
+            <a href="sobre.html"    class="btn btn2">Sobre</a>
+             <a href="agenda.html"  class="btn btn3">Agenda</a
+           ><a href="contato.html"  class="btn btn4">Contato</a>
+           <div   class="horario">
+            <label><strong>Hoário de Atendimento</strong> De Segunda a Sexta  de 8h às 18h</label></div>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img class="banner" src="imagem/b_contato.jpg"/>
+            </div>
+    
+            <div class="content">
+                <div class=" mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d41354.33124898904!2d-46.6973543422307!3d-23.631538486806328!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5094169be235%3A0xba0740a60aa50e69!2sFisioclinic%20SP!5e0!3m2!1spt-BR!2sbr!4v1716651570171!5m2!1spt-BR!2sbr" 
+                      width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- Aqui vai o seu conteúdo -->
+            
+                <div class="formulario">
+                    <form  nome="formulrio" action="#.php" method="post" target="_self" autocomplete="off" onsubmit="alert('Formulario Enviado');">
+                     <div class="form-exemplo">
+                        <label >Seu Nome *: </label>
+                        <input type="text" nome="nome" placeholder="Coloque seu Nome Aqui" required/>
+                    </div>
+                    <div class="email">
+                        <label >E-mail *:</label>
+                        <input type="text" nome="email"  placeholder="Coloque Seu Email Aqui" required/>
+                    </div>
+                        <div class="assunto">
+                             <label> Assunto *: </label> <input type="text"  name="subject" placeholder="Digite Aqui" required/><br>
+                                 <label>Messagem *: </label><br>
+                                <textarea rows="20" cols="50" name="mensagem">Mensagem</textarea><br>
+                                <button type="reset">Limpar</button>
+                                <button type="submit">Enviar</button><br>
+                        </div>
+                    </form>
+            </div>
+            <div class="footer">
+                Desenvolvido por: <br> 
+                Bee Desenvolvimento
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
